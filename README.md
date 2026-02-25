@@ -10,7 +10,7 @@ data.py        — Dataset download, tokenization, vocabulary, subsampling, nega
 model.py       — SkipGram model: two embedding matrices + forward/backward/SGD update
 train.py       — Training loop with linear LR decay and per-epoch subsampling
 evaluate.py    — Nearest-neighbour and analogy queries on learned embeddings
-main.py        — CLI entry point: wires everything together, saves embeddings
+main.py        — entry point
 ```
 
 ## Running

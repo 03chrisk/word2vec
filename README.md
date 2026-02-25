@@ -57,6 +57,10 @@ All CLI flags and their defaults:
 | `--max-tokens` | None | Cap token count for quick runs |
 | `--output` | `embeddings.txt` | Path for saved embeddings |
 
+## Notes
+
+`Word2Vec_grads.pdf` contains derivations of the gradients used in the model, along with some implementation insights.
+
 ## Design choices
 
 **Skip-gram architecture** — predicts surrounding context words from a center word. Two separate embedding matrices are maintained: `W_center` (the final word embeddings) and `W_context` (used only during training).

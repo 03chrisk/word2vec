@@ -1,6 +1,6 @@
 # word2vec
 
-A from-scratch implementation of Word2Vec in pure NumPy — no PyTorch, no TensorFlow, no ML frameworks. Just matrices, dot products, and SGD.
+A from-scratch implementation of Word2Vec (SkipGram with negative sampling) in pure NumPy.
 
 ## Structure
 
